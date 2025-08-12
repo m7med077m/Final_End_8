@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>يوم الإفراج عن عيبد رابعة طب بشري كفر الشيخ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --card-bg: rgba(255, 255, 255, 0.95);
+            --text-primary: #2d3748;
+            --text-secondary: #4a5568;
+            --shadow-light: 0 4px 15px rgba(0, 0, 0, 0.1);
+            --shadow-medium: 0 8px 25px rgba(0, 0, 0, 0.15);
+            --border-radius: 20px;
+            --animation-duration: 0.3s;
+            --particle-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Dark mode variables */
+        [data-theme="dark"] {
+            --primary-gradient: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            --secondary-gradient: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            --card-bg: rgba(45, 45, 70, 0.95);
+            --text-primary: #ffffff;
+            --text-secondary: #f7fafc;
+            --shadow-light: 0 4px 15px rgba(0, 0, 0, 0.4);
+            --shadow-medium: 0 8px 25px rgba(0, 0, 0, 0.5);
+            --particle-color: rgba(255, 255, 255, 0.4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tajawal', 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--primary-gradient);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+            animation: backgroundPulse 8s ease-in-out infinite;
+        }
+
+        @keyframes backgroundPulse {
+            0%, 100% {
+                background: var(--primary-gradient);
+            }
+            50% {
+                background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            }
+        }
+
+        [data-theme="dark"] body {
+            animation: backgroundPulseDark 8s ease-in-out infinite;
+        }
+
+        @keyframes backgroundPulseDark {
+            0%, 100% {
+                background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            }
+            50% {
+                background: linear-gradient(135deg, #16213e 0%, #0f1419 100%);
+            }
+        }
+
+        /* Ultra Active Background Animation */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .particle-small {
+            width: 4px;
+            height: 4px;
+            background: var(--particle-color);
+            animation: floatSmall 2s infinite linear;
+        }
+
+        .particle-medium {
+            width: 8px;
+            height: 8px;
+            background: rgba(102, 126, 234, 0.4);
+            animation: floatMedium 4s infinite linear;
+        }
+
+        .particle-large {
+            width: 12px;
+            height: 12px;
+            background: rgba(118, 75, 162, 0.3);
+            animation: floatLarge 6s infinite linear;
+        }
+
+        .particle-glow {
+            width: 6px;
+            height: 6px;
+            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, transparent 70%);
+            animation: floatGlow 3s infinite linear;
+            box-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+
+        /* Dark mode particle colors */
+        [data-theme="dark"] .particle-medium {
+            background: rgba(255, 107, 107, 0.5);
+        }
+
+        [data-theme="dark"] .particle-large {
+            background: rgba(238, 90, 36, 0.4);
+        }
+
+        [data-theme="dark"] .particle-glow {
+            background: radial-gradient(circle, rgba(255,107,107,0.8) 0%, transparent 70%);
+            box-shadow: 0 0 15px rgba(255,107,107,0.6);
+        }
+
+        /* Dynamic particle animations */
+        @keyframes floatSmall {
+            0% {
+                opacity: 0;
+                transform: translateY(100vh) translateX(0) scale(0) rotate(0deg);
+            }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% {
+                opacity: 0;
+                transform: translateY(-20vh) translateX(100px) scale(2) rotate(720deg);
+            }
+        }
+
+        @keyframes floatMedium {
+            0% {
+                opacity: 0;
+                transform: translateY(100vh) translateX(0) scale(0) rotate(0deg);
+            }
+            15% { opacity: 1; }
+            85% { opacity: 1; }
+            100% {
+                opacity: 0;
+                transform: translateY(-20vh) translateX(-80px) scale(1.5) rotate(-360deg);
+            }
+        }
+
+        @keyframes floatLarge {
+            0% {
+                opacity: 0;
+                transform: translateY(100vh) translateX(0) scale(0) rotate(0deg);
+            }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% {
+                opacity: 0;
+                transform: translateY(-20vh) translateX(50px) scale(1) rotate(180deg);
+            }
+        }
+
+        @keyframes floatGlow {
+            0% {
+                opacity: 0;
+                transform: translateY(100vh) translateX(0) scale(0) rotate(0deg);
+            }
+            5% { opacity: 1; }
+            95% { opacity: 1; }
+            100% {
+                opacity: 0;
+                transform: translateY(-20vh) translateX(-120px) scale(3) rotate(1080deg);
+            }
+        }
+
+        /* Wave effect - Enhanced for both themes */
+        .wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 200%;
+            height: 200px;
+            background: linear-gradient(45deg, transparent, rgba(102, 126, 234, 0.15), transparent);
+            animation: wave 8s infinite linear;
+            border-radius: 50% 50% 0 0;
+        }
+
+        .wave:nth-child(2) {
+            height: 150px;
+            background: linear-gradient(45deg, transparent, rgba(118, 75, 162, 0.1), transparent);
+            animation: wave 12s infinite linear reverse;
+        }
+
+        .wave:nth-child(3) {
+            height: 100px;
+            background: linear-gradient(45deg, transparent, rgba(240, 147, 251, 0.08), transparent);
+            animation: wave 15s infinite linear;
+        }
+
+        [data-theme="dark"] .wave {
+            background: linear-gradient(45deg, transparent, rgba(255, 107, 107, 0.2), transparent);
+        }
+
+        [data-theme="dark"] .wave:nth-child(2) {
+            background: linear-gradient(45deg, transparent, rgba(238, 90, 36, 0.15), transparent);
+        }
+
+        [data-theme="dark"] .wave:nth-child(3) {
+            background: linear-gradient(45deg, transparent, rgba(255, 107, 107, 0.1), transparent);
+        }
+
+        @keyframes wave {
+            0% { transform: translateX(-50%) rotate(0deg); }
+            100% { transform: translateX(-50%) rotate(360deg); }
+        }
+
+        .container {
+            background: var(--card-bg);
+            backdrop-filter: blur(15px);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-medium);
+            padding: 40px;
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+            position: relative;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            z-index: 10;
+            animation: containerFloat 6s ease-in-out infinite;
+        }
+
+        @keyframes containerFloat {
+            0%, 100% {
+                transform: translateY(0px);
+                box-shadow: var(--shadow-medium);
+            }
+            50% {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+            }
+        }
+
+        [data-theme="dark"] .container {
+            border: 1px solid rgba(255, 107, 107, 0.2);
+            animation: containerFloatDark 6s ease-in-out infinite;
+        }
+
+        @keyframes containerFloatDark {
+            0%, 100% {
+                transform: translateY(0px);
+                box-shadow: var(--shadow-medium);
+            }
+            50% {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 30px rgba(255, 107, 107, 0.1);
+            }
+        }
+
+        /* Theme toggle button */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 50%;
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            box-shadow: var(--shadow-light);
+            cursor: pointer;
+            transition: all var(--animation-duration) ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+            box-shadow: var(--shadow-medium);
+        }
+
+        [data-theme="dark"] .theme-toggle .sun-icon {
+            display: inline;
+        }
+
+        [data-theme="dark"] .theme-toggle .moon-icon {
+            display: none;
+        }
+
+        [data-theme="light"] .theme-toggle .sun-icon,
+        :root .theme-toggle .sun-icon {
+            display: none;
+        }
+
+        [data-theme="light"] .theme-toggle .moon-icon,
+        :root .theme-toggle .moon-icon {
+            display: inline;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--text-primary) !important;
+            margin-bottom: 30px;
+            line-height: 1.3;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Force white text in dark mode */
+        [data-theme="dark"] .title {
+            color: #ffffff !important;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .countdown-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+            direction: ltr;
+        }
+
+        .countdown-card {
+            background: linear-gradient(145deg, var(--card-bg), rgba(240, 244, 247, 0.5));
+            border-radius: 15px;
+            padding: 25px 15px;
+            box-shadow: var(--shadow-light);
+            border: 2px solid rgba(102, 126, 234, 0.1);
+            transition: all var(--animation-duration) ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        [data-theme="dark"] .countdown-card {
+            background: linear-gradient(145deg, var(--card-bg), rgba(80, 80, 120, 0.6));
+            border: 2px solid rgba(255, 107, 107, 0.2);
+        }
+
+        .countdown-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-medium);
+            border-color: rgba(102, 126, 234, 0.3);
+        }
+
+        [data-theme="dark"] .countdown-card:hover {
+            border-color: rgba(255, 107, 107, 0.4);
+        }
+
+        .countdown-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--primary-gradient);
+            border-radius: 15px 15px 0 0;
+        }
+
+        [data-theme="dark"] .countdown-card::before {
+            background: var(--secondary-gradient);
+        }
+
+        .countdown-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            display: block;
+            margin-bottom: 10px;
+            direction: ltr;
+            unicode-bidi: bidi-override;
+        }
+
+        .countdown-label {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            direction: rtl;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 10px;
+            border-right: 4px solid #667eea;
+        }
+
+        [data-theme="dark"] .subtitle {
+            background: rgba(255, 107, 107, 0.2);
+            border-right-color: #ff6b6b;
+            color: var(--text-secondary);
+        }
+
+        /* Celebration styles */
+        .celebration {
+            display: none;
+            text-align: center;
+            animation: celebrationEntry 1s ease-out;
+        }
+
+        .celebration.active {
+            display: block;
+        }
+
+        .celebration-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: var(--success-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 30px;
+            animation: pulse 2s infinite;
+        }
+
+        [data-theme="dark"] .celebration-title {
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+            background: none;
+        }
+
+        .share-container {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            padding: 15px 30px !important;
+            border: none !important;
+            border-radius: 50px !important;
+            font-size: 1.1rem !important;
+            font-weight: 600 !important;
+            cursor: pointer !important;
+            transition: all var(--animation-duration) ease !important;
+            text-decoration: none !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 10px !important;
+            font-family: inherit !important;
+            color: white !important;
+            margin: 5px !important;
+            min-width: 180px !important;
+            justify-content: center !important;
+        }
+
+        .whatsapp-btn {
+            background: #25d366 !important;
+            color: white !important;
+        }
+
+        .whatsapp-btn:hover {
+            background: #128c7e !important;
+            transform: translateY(-3px) !important;
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4) !important;
+        }
+
+        .copy-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            color: white !important;
+        }
+
+        .copy-btn:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%) !important;
+            transform: translateY(-3px) !important;
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4) !important;
+        }
+
+        .screenshot-btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important;
+            color: white !important;
+        }
+
+        .screenshot-btn:hover {
+            background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%) !important;
+            transform: translateY(-3px) !important;
+            box-shadow: 0 8px 20px rgba(240, 147, 251, 0.4) !important;
+        }
+
+        .screenshot-btn.processing {
+            background: #ffa500;
+            animation: processingPulse 1s infinite;
+        }
+
+        .copy-success {
+            background: #48bb78 !important;
+            animation: successPulse 0.5s ease;
+        }
+
+        /* Animations */
+        @keyframes celebrationEntry {
+            0% {
+                opacity: 0;
+                transform: scale(0.5) rotate(-10deg);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) rotate(0deg);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        @keyframes successPulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes processingPulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        @keyframes countdownPulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.02);
+            }
+        }
+
+        .countdown-card.urgent {
+            animation: countdownPulse 1s infinite;
+            border-color: #f56565;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+                margin: 10px;
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            .countdown-container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+            .countdown-number {
+                font-size: 2.5rem;
+            }
+
+            .countdown-label {
+                font-size: 1rem;
+            }
+
+            .celebration-title {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .theme-toggle {
+                top: 10px;
+                left: 10px;
+                width: 45px;
+                height: 45px;
+                font-size: 1.3rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 1.7rem;
+            }
+
+            .countdown-container {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .countdown-number {
+                font-size: 2rem;
+            }
+
+            .celebration-title {
+                font-size: 2rem;
+            }
+
+            .share-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .share-btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            :root {
+                --card-bg: white;
+                --text-primary: black;
+                --text-secondary: #333;
+            }
+            
+            .countdown-card {
+                border: 2px solid black;
+            }
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            .particle {
+                animation: none;
+            }
+            
+            .countdown-card:hover {
+                transform: none;
+            }
+            
+            .celebration-title {
+                animation: none;
+            }
+
+            .wave {
+                animation: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع المظلم">
+        <span class="moon-icon">🌙</span>
+        <span class="sun-icon">☀️</span>
+    </button>
+
+    <div class="bg-animation" id="bgAnimation">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    
+    <div class="container">
+        <h1 class="title">يوم الإفراج عن عيبد رابعة طب بشري كفر الشيخ</h1>
+        
+        <div id="countdownSection">
+            <div class="countdown-container">
+                <div class="countdown-card">
+                    <div class="countdown-number" id="days">--</div>
+                    <div class="countdown-label">أيام</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-number" id="hours">--</div>
+                    <div class="countdown-label">ساعات</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-number" id="minutes">--</div>
+                    <div class="countdown-label">دقائق</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-number" id="seconds">--</div>
+                    <div class="countdown-label">ثواني</div>
+                </div>
+            </div>
+            
+            <div class="subtitle">الموعد: 14/09/2025 — 13:00 بتوقيت القاهرة</div>
+        </div>
+        
+        <div id="celebrationSection" class="celebration">
+            <h1 class="celebration-title">🎉 انتهت الامتحانات — يوم الإفراج! 🎉</h1>
+            <div class="share-container">
+                <a href="#" class="share-btn whatsapp-btn" id="whatsappBtn">
+                    📱 مشاركة في واتساب
+                </a>
+                <button class="share-btn copy-btn" id="copyBtn">
+                    📋 نسخ الرابط
+                </button>
+                <button class="share-btn screenshot-btn" id="screenshotBtn">
+                    📷 مشاركة صورة
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script>
+        // ===== CUSTOMIZATION VARIABLES =====
+        const CONFIG = {
+            // Target date and time (Cairo timezone: UTC+3)
+            targetDate: new Date('2025-09-14T13:00:00+03:00'),
+            
+            // Event details
+            eventTitle: 'يوم الإفراج عن عيبد رابعة طب بشري كفر الشيخ',
+            celebrationMessage: '🎉 انتهت الامتحانات — يوم الإفراج! 🎉',
+            dateSubtitle: 'الموعد: 14/09/2025 — 13:00 بتوقيت القاهرة',
+            
+            // Share message for WhatsApp
+            shareMessage: 'يوم الإفراج عن عيبد رابعة طب بشري كفر الشيخ! 🎉 انتهت الامتحانات!',
+            
+            // Animation settings
+            urgentThreshold: 24 * 60 * 60 * 1000, // 24 hours in milliseconds
+            particleCount: 60 // Increased for ultra active background
+        };
+
+        let currentTheme = 'light';
+
+        // ===== COUNTDOWN TIMER LOGIC =====
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const timeLeft = CONFIG.targetDate.getTime() - now;
+
+            if (timeLeft <= 0) {
+                showCelebration();
+                return;
+            }
+
+            // Calculate time units
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+            // Update display
+            document.getElementById('days').textContent = formatNumber(days);
+            document.getElementById('hours').textContent = formatNumber(hours);
+            document.getElementById('minutes').textContent = formatNumber(minutes);
+            document.getElementById('seconds').textContent = formatNumber(seconds);
+
+            // Add urgent animation when less than 24 hours remain
+            const cards = document.querySelectorAll('.countdown-card');
+            if (timeLeft <= CONFIG.urgentThreshold) {
+                cards.forEach(card => card.classList.add('urgent'));
+            } else {
+                cards.forEach(card => card.classList.remove('urgent'));
+            }
+        }
+
+        function formatNumber(num) {
+            return num.toString().padStart(2, '0');
+        }
+
+        function showCelebration() {
+            document.getElementById('countdownSection').style.display = 'none';
+            document.getElementById('celebrationSection').classList.add('active');
+            
+            // Trigger confetti effect
+            createConfetti();
+        }
+
+        // ===== ULTRA ACTIVE BACKGROUND ANIMATION =====
+        function createBackgroundParticles() {
+            const bgAnimation = document.getElementById('bgAnimation');
+            
+            // Clear existing particles but keep the waves
+            const existingParticles = bgAnimation.querySelectorAll('.particle');
+            existingParticles.forEach(p => p.remove());
+            
+            // Create more particles for both themes
+            const particleCount = currentTheme === 'dark' ? CONFIG.particleCount : CONFIG.particleCount + 20;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                
+                // Randomly assign particle types for variety
+                const types = ['particle-small', 'particle-medium', 'particle-large', 'particle-glow'];
+                const randomType = types[Math.floor(Math.random() * types.length)];
+                
+                particle.className = `particle ${randomType}`;
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 4 + 's';
+                
+                // Vary animation duration based on type
+                let duration;
+                switch(randomType) {
+                    case 'particle-small': duration = 2 + Math.random() * 2; break;
+                    case 'particle-medium': duration = 4 + Math.random() * 2; break;
+                    case 'particle-large': duration = 6 + Math.random() * 2; break;
+                    case 'particle-glow': duration = 3 + Math.random() * 1; break;
+                    default: duration = 4;
+                }
+                
+                particle.style.animationDuration = duration + 's';
+                
+                // Add random positioning for more chaos
+                if (Math.random() > 0.8) {
+                    particle.style.animationDirection = 'reverse';
+                }
+                
+                bgAnimation.appendChild(particle);
+            }
+
+            // Add some extra sparkle particles for light mode
+            if (currentTheme === 'light') {
+                for (let i = 0; i < 15; i++) {
+                    const sparkle = document.createElement('div');
+                    sparkle.className = 'particle';
+                    sparkle.style.cssText = `
+                        position: absolute;
+                        left: ${Math.random() * 100}%;
+                        width: 2px;
+                        height: 2px;
+                        background: radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(102, 126, 234, 0.6) 100%);
+                        border-radius: 50%;
+                        animation: sparkle ${2 + Math.random() * 3}s ease-in-out infinite;
+                        animation-delay: ${Math.random() * 2}s;
+                    `;
+                    bgAnimation.appendChild(sparkle);
+                }
+            }
+        }
+
+        // ===== SHARE FUNCTIONALITY =====
+        function setupShareButtons() {
+            const whatsappBtn = document.getElementById('whatsappBtn');
+            const copyBtn = document.getElementById('copyBtn');
+            const screenshotBtn = document.getElementById('screenshotBtn');
+
+            // WhatsApp share
+            whatsappBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const message = encodeURIComponent(CONFIG.shareMessage);
+                const url = `https://wa.me/?text=${message}`;
+                window.open(url, '_blank');
+            });
+
+            // Copy to clipboard
+            copyBtn.addEventListener('click', async () => {
+                try {
+                    const shareText = `${CONFIG.shareMessage}\n${window.location.href}`;
+                    await navigator.clipboard.writeText(shareText);
+                    showButtonFeedback(copyBtn, '✅ تم النسخ!');
+                } catch (err) {
+                    // Fallback for browsers that don't support clipboard API
+                    const textArea = document.createElement('textarea');
+                    textArea.value = `${CONFIG.shareMessage}\n${window.location.href}`;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    showButtonFeedback(copyBtn, '✅ تم النسخ!');
+                }
+            });
+
+            // Screenshot functionality
+            screenshotBtn.addEventListener('click', async () => {
+                try {
+                    screenshotBtn.textContent = '⏳ جاري التصوير...';
+                    screenshotBtn.classList.add('processing');
+                    screenshotBtn.disabled = true;
+
+                    await takeScreenshot();
+
+                } catch (error) {
+                    console.error('Screenshot error:', error);
+                    screenshotBtn.textContent = '❌ فشل التصوير';
+                } finally {
+                    setTimeout(() => {
+                        screenshotBtn.textContent = '📷 مشاركة صورة';
+                        screenshotBtn.classList.remove('processing', 'copy-success');
+                        screenshotBtn.disabled = false;
+                    }, 2000);
+                }
+            });
+        }
+
+        function showButtonFeedback(button, message) {
+            const originalText = button.textContent;
+            button.textContent = message;
+            button.classList.add('copy-success');
+            
+            setTimeout(() => {
+                button.textContent = originalText;
+                button.classList.remove('copy-success');
+            }, 2000);
+        }
+
+        async function takeScreenshot() {
+            try {
+                // Hide the screenshot button temporarily
+                const screenshotBtn = document.getElementById('screenshotBtn');
+                screenshotBtn.style.display = 'none';
+                
+                // Take screenshot of the container
+                const canvas = await html2canvas(document.querySelector('.container'), {
+                    backgroundColor: null,
+                    scale: 2, // Higher quality
+                    useCORS: true,
+                    allowTaint: false,
+                    scrollX: 0,
+                    scrollY: 0
+                });
+
+                // Show the button again
+                screenshotBtn.style.display = 'inline-flex';
+
+                // Convert to blob
+                canvas.toBlob(async (blob) => {
+                    if (navigator.share && navigator.canShare && navigator.canShare({files: [new File([blob], 'countdown.png', {type: 'image/png'})]})) {
+                        // Use native sharing if available
+                        const file = new File([blob], 'countdown.png', {type: 'image/png'});
+                        await navigator.share({
+                            files: [file],
+                            title: CONFIG.eventTitle,
+                            text: CONFIG.shareMessage
+                        });
+                        showButtonFeedback(screenshotBtn, '✅ تم المشاركة!');
+                    } else {
+                        // Fallback: download the image
+                        const url = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `countdown-${new Date().getTime()}.png`;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        URL.revokeObjectURL(url);
+                        showButtonFeedback(screenshotBtn, '✅ تم التنزيل!');
+                    }
+                }, 'image/png', 0.9);
+
+            } catch (error) {
+                console.error('Screenshot failed:', error);
+                throw error;
+            }
+        }
+
+        // ===== DARK MODE FUNCTIONALITY =====
+        function setupDarkMode() {
+            const themeToggle = document.getElementById('themeToggle');
+            
+            themeToggle.addEventListener('click', () => {
+                currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', currentTheme);
+                
+                // Recreate particles with new colors and effects
+                createBackgroundParticles();
+            });
+        }
+
+        // ===== CONFETTI EFFECT =====
+        function createConfetti() {
+            const colors = ['#667eea', '#764ba2', '#4facfe', '#00f2fe', '#f093fb', '#f5576c', '#ff6b6b', '#ee5a24'];
+            
+            for (let i = 0; i < 100; i++) {
+                setTimeout(() => {
+                    const confetti = document.createElement('div');
+                    confetti.style.cssText = `
+                        position: fixed;
+                        top: -10px;
+                        left: ${Math.random() * 100}%;
+                        width: ${4 + Math.random() * 8}px;
+                        height: ${4 + Math.random() * 8}px;
+                        background: ${colors[Math.floor(Math.random() * colors.length)]};
+                        border-radius: 50%;
+                        pointer-events: none;
+                        z-index: 1000;
+                        animation: confettiFall ${2 + Math.random() * 4}s linear forwards;
+                    `;
+                    document.body.appendChild(confetti);
+                    
+                    setTimeout(() => {
+                        confetti.remove();
+                    }, 6000);
+                }, i * 30);
+            }
+        }
+
+        // ===== ACCESSIBILITY ENHANCEMENTS =====
+        function setupAccessibility() {
+            // Add ARIA labels
+            document.getElementById('countdownSection').setAttribute('aria-label', 'العد التنازلي للموعد المحدد');
+            document.getElementById('celebrationSection').setAttribute('aria-label', 'رسالة الاحتفال');
+            
+            // Add keyboard navigation
+            const buttons = document.querySelectorAll('button, a');
+            buttons.forEach(button => {
+                button.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        button.click();
+                    }
+                });
+            });
+        }
+
+        // ===== INITIALIZATION =====
+        function init() {
+            // Start countdown
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+            
+            // Setup UI
+            createBackgroundParticles();
+            setupShareButtons();
+            setupDarkMode();
+            setupAccessibility();
+            
+            // Check if celebration should be shown immediately
+            if (new Date().getTime() >= CONFIG.targetDate.getTime()) {
+                showCelebration();
+            }
+
+            // Recreate particles periodically for ultra dynamic effect
+            setInterval(() => {
+                if (Math.random() > 0.7) { // 30% chance every interval
+                    createBackgroundParticles();
+                }
+            }, 8000);
+        }
+
+        // Add confetti animation CSS
+        const confettiStyle = document.createElement('style');
+        confettiStyle.textContent = `
+            @keyframes confettiFall {
+                0% {
+                    transform: translateY(-10vh) rotate(0deg);
+                    opacity: 1;
+                }
+                100% {
+                    transform: translateY(110vh) rotate(720deg);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(confettiStyle);
+
+        // Start the application
+        document.addEventListener('DOMContentLoaded', init);
+
+        // Handle visibility change to maintain accurate countdown
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                updateCountdown();
+            }
+        });
+
+        // Add some extra dynamic effects
+        document.addEventListener('mousemove', (e) => {
+            if (Math.random() > 0.98) { // Very rare mouse trail effect
+                const trail = document.createElement('div');
+                trail.style.cssText = `
+                    position: fixed;
+                    top: ${e.clientY}px;
+                    left: ${e.clientX}px;
+                    width: 3px;
+                    height: 3px;
+                    background: var(--particle-color);
+                    border-radius: 50%;
+                    pointer-events: none;
+                    z-index: 999;
+                    animation: trailFade 1s ease-out forwards;
+                `;
+                document.body.appendChild(trail);
+                setTimeout(() => trail.remove(), 1000);
+            }
+        });
+
+        // Add sparkle animation for light mode
+        const sparkleStyle = document.createElement('style');
+        sparkleStyle.textContent = `
+            @keyframes sparkle {
+                0%, 100% {
+                    opacity: 0;
+                    transform: scale(0) rotate(0deg);
+                }
+                50% {
+                    opacity: 1;
+                    transform: scale(1.5) rotate(180deg);
+                }
+            }
+        `;
+        document.head.appendChild(sparkleStyle);
+
+        // Add trail fade animation
+        const trailStyle = document.createElement('style');
+        trailStyle.textContent = `
+            @keyframes trailFade {
+                0% {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+                100% {
+                    opacity: 0;
+                    transform: scale(3);
+                }
+            }
+        `;
+        document.head.appendChild(trailStyle);
+    </script>
+</body>
+</html>
